@@ -1,0 +1,57 @@
+* {
+  text-align: center;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+body {
+  background-color: #0000;
+}
+.banner {
+  background-color: #111111;
+  /* margin-left: 10%;
+  margin-right: 10%; */
+  padding-top: 1%;
+  padding-bottom: 1%;
+  margin-bottom: 1%;
+  border-radius: 5px;
+}
+h1 {
+  color: #fff;
+}
+.container-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 15px;
+}
+.game-board {
+}
+
+.icon {
+  font-size: 35px;
+  color: #fff;
+}
+.card-body {
+  background-color: #7844e9;
+  width: 30%;
+  height: 30%;
+  border-color: #fff;
+  border-radius: 5px;
+  border-width: 5px;
+  padding: 50px;
+}
+
+.reload-btn {
+  background-color: #7844e9;
+  border: 2px solid #fff;
+}
+.reload-btn:hover {
+  background-color: #111111;
+  border: 2px solid #fff;
+}
+
+.box {
+  /* background-color: #7844e9; */
+}
+.box:hover {
+  background-color: #111111;
+}
